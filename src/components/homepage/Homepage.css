@@ -1,0 +1,163 @@
+body{
+    min-height: 100vh;
+    /* background-image: url('../../assets/background.jpg'); */
+    background-size: cover;
+    font-family: 'Roboto' !important;
+}
+
+.body{
+    width: 100%;
+}
+
+.form-container{
+    width: 40%;
+    margin: 0% 10%;
+}
+
+.form-header{
+    width: 100%;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.form-header p{
+    font-size: 50px;
+    color: #4b5ef4;
+}
+
+.form-body{
+    width: 100%;
+}
+
+.login-tab{
+    border-right: 1px solid silver;
+}
+
+.tab-background-selected{
+    background: white;
+}
+
+.tab-background-unselected{
+    background-color: #f0f0f0 !important;
+}
+
+.tab-label{
+    font-size: 25px;
+    margin: 5% 0;
+    text-transform: capitalize;
+}
+
+.tab-label-selected{
+    font-size: 25px;
+    margin: 5% 0;
+    text-transform: capitalize;
+    color: #4b5ef4;
+}
+
+.tab-unselected{
+    font-size: 25px;
+    margin: 5% 0;
+    text-transform: capitalize;
+    /* background: silver; */
+    color: black;
+}
+
+.login-form{
+    width: 100%;
+}
+
+.login-form-container{
+    width: 80%;
+    margin: 0% auto;
+    padding: 10% 0;
+}
+
+.login-field{
+    width: 100%;
+}
+
+.login-field p{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.login-field input{
+    width: 95%;
+    font-size: 20px;
+    height: 60px;
+    border: 2px solid #4b5ef4;
+    border-radius: 5px;
+    margin-bottom: 10%;
+    padding-left: 5%;
+}
+
+.login-field-last-input{
+    margin-bottom: 2% !important;
+}
+
+.login-password{
+    letter-spacing: 5px;
+}
+
+.form-button-container{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-button{
+    background: #4b5ef4;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    padding: 5% 0;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.password-validation{
+    background: #4b5ef4;
+    border-radius: 10px;
+}
+
+.validation-container{
+    width: 80%;
+    padding: 2%;
+}
+
+.validation-content{
+    width: 100%;
+    margin: 2%;
+}
+
+.validation-icon{
+    width: 6%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+/* .validation-icon img{
+
+} */
+
+.validation-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.validation-text p{
+    color: white;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.show-icon{
+    display: inline-block;
+}
